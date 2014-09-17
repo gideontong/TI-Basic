@@ -1,0 +1,18 @@
+Degree
+ClLCD
+Disp " 90° Triangle Ratio"
+Disp "   By Gideon Tong"
+Disp "Solve for:"
+Menu(1,"Sine",SINE,2,"Cosine",CO,3,"Tangent",TA,5,"Exit",BYE)
+Lbl SINE
+Menu(1,"Degree",SDEG,2,"Line Opp.",SLINE,3,"Hypot.",SHYP,5,"Exit",BYE)
+Lbl SDEG
+Outpt(3,12,"Degree")
+Input "Opposite>",opp
+Input "Hypotneuse">",hyp
+sin^-1 (opp/hyp)->x
+Lbl SLINE
+Lbl SHYP
+Lbl CO
+Lbl TA
+Lbl BYE
