@@ -1,1 +1,9 @@
-©
+©Just a hello world file.
+ClrIO
+Disp "Hello, world!"
+Pause "Press [ENTER] to continue."
+ClrIO
+Text "Hello, world!"
+Pause "Press [ENTER] to continue."
+ClrIO
+ClrHome
