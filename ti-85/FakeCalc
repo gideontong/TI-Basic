@@ -1,2 +1,4 @@
 ClLCD
+Lbl A
 Input ""->x
+Goto A
