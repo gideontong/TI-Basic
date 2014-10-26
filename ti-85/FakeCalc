@@ -1,4 +1,5 @@
 ClLCD
 Lbl A
 Input ""->x
+Disp x+1
 Goto A
