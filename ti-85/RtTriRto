@@ -61,6 +61,13 @@ Goto BYE
 Lbl TA
 Menu(1,"Degree",TDEG,2,"Line opp.",TOPP,3,"Adjacent",TAD,5,"Exit",BYE)
 Lbl TDEG
+Input "Line opp.>",opp
+Input "Adjacent>",adj
+tan^-1 (opp/adj)-x
+Disp "Degree:"
+Disp x
+Pause "Press [enter] to cont"
+Goto BYE
 Lbl TOPP
 Lbl TAD
 Lbl BYE
