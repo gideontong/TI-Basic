@@ -4,7 +4,7 @@ All program names are the same 8-letter long names from my original TI-85 calcul
 
 I have yet to put something here, but the point of this folder is to store TI-BASIC programs written for the TI-85.
 
-Things to do: upload RtTriRto, and update RtTriRto so it also has tan().
+*Things to do:* upload RtTriRto, and update RtTriRto so it also has tan().
 
 Remember: filenames that don't have a filename extension CANNOT be sideloaded into a TI-85. It is meant for people looking at a screen to be able to find the keys easily. If you want a sideloaded program, that's coming soon, but not so soon. I don't have a TI-85 I/O cable, so I can't.
 
