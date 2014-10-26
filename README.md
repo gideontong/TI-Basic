@@ -1,7 +1,7 @@
 ti-basic
 ========
 
-This is a repository containing TI-BASIC code written by Gideon Tong and licensced under MIT. All code avaliable here is written by Gideon Tong.
+This is a repository containing TI-BASIC code written by Gideon Tong and licensed under MIT. All code available here is written by Gideon Tong.
 
 <h1>The MIT License (MIT)</h1>
 
