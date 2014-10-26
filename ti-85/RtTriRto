@@ -12,6 +12,14 @@ Input "Opposite>",opp
 Input "Hypotneuse">",hyp
 sin^-1 (opp/hyp)->x
 Lbl SLINE
+Outpt(3,12,"Line opp.")
+Input "Degree>",deg
+Input "Hypotneuse>",hyp
+(sin deg)/hyp->x
+Disp "Line opposite is:"
+Disp x
+Pause "Press [ENTER] to cont"
+Goto BYE
 Lbl SHYP
 Lbl CO
 Lbl TA
