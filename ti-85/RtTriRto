@@ -30,6 +30,7 @@ Disp x
 Pause "Press [ENTER] to cont"
 Goto BYE
 Lbl CO
+Menu(1,"Degree",CDEG,2,"Adjcent",CADJ,3,"Hypot",CHYP,5,"Exit",BYE)
 Lbl TA
 Lbl BYE
 ClLCD
