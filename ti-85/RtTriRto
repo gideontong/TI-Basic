@@ -16,3 +16,7 @@ Lbl SHYP
 Lbl CO
 Lbl TA
 Lbl BYE
+ClLCD
+Radian
+Disp ""
+Outpt(1,8,"By Gideon Tong")
