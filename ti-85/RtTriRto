@@ -77,6 +77,14 @@ Disp x
 Pause "Press [enter] to cont"
 Goto BYE
 Lbl TAD
+Input "Degree>",deg
+Input "Line opp.>",opp
+opp/(tan deg)->x
+Disp "Adjacent angle:"
+Disp x
+Pause "Press [enter] to cont"
+Goto BYE
+Goto BYE
 Lbl BYE
 ClLCD
 Radian
