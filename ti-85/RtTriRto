@@ -50,6 +50,14 @@ Disp x
 Pause "Press [enter] to cont"
 Goto BYE
 Lbl CHYP
+Outpt(3,12,"Hypotneuse")
+Input "Degree>",deg
+Input "Adjcent>",adj
+(cos deg)/adj->x
+Disp "Hypotneuse:"
+Disp x
+Pause "Press [enter] to cont"
+Goto BYE
 Lbl TA
 Lbl BYE
 ClLCD
