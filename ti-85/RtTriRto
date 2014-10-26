@@ -21,6 +21,14 @@ Disp x
 Pause "Press [ENTER] to cont"
 Goto BYE
 Lbl SHYP
+Outpt(3,12,"Hypotneuse")
+Input "Degree>",deg
+Input "Line Opposite>",opp
+(sin deg)*opp->x
+Disp "Hypotneuse:"
+Disp x
+Pause "Press [ENTER] to cont"
+Goto BYE
 Lbl CO
 Lbl TA
 Lbl BYE
