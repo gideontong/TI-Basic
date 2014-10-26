@@ -3,7 +3,7 @@ ti-basic
 
 This is a repository containing TI-BASIC code written by Gideon Tong and licensced under MIT. All code avaliable here is written by Gideon Tong.
 
-<h1><u>The MIT License (MIT)</u></h1>
+<h1>The MIT License (MIT)</h1>
 
 Copyright © 2014 Gideon Tong
 
