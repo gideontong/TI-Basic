@@ -1,4 +1,4 @@
 ©This is a program that sets and views notes.
 ClrIO
 Text notefile
-Prompt "Input new note. Press ESC to keep old note.",notefile
+Request "Input new note. Press ESC to keep old note.",notefile
