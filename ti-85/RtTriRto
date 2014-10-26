@@ -41,6 +41,14 @@ Disp x
 Pause "Press [enter] to cont"
 Goto BYE
 Lbl CADJ
+Outpt(3,12,"Adjcent")
+Input "Degree>",deg
+Input "Hypotneuse>",hyp
+(cos deg)*hyp->x
+Disp "Adjcent:"
+Disp x
+Pause "Press [enter] to cont"
+Goto BYE
 Lbl CHYP
 Lbl TA
 Lbl BYE
