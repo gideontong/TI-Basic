@@ -1,9 +1,8 @@
 ClLCD
-Outpt(1,3,”Chatbox v1.0 Beta      by Gideon Tong”)
+Outpt(1,3,”Chatbox v1.1 Beta      by Gideon Tong”)
 Disp “”
-Disp “”
-InpSt “Name> “,n1
-InpSt “Name> “,n2
+InpSt “P1> “,n1
+InpSt “P2> “,n2
 Lbl A
 ClLCD
 Disp “Who are you?”
