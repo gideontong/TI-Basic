@@ -59,6 +59,10 @@ Disp x
 Pause "Press [enter] to cont"
 Goto BYE
 Lbl TA
+Menu(1,"Degree",TDEG,2,"Line opp.",TOPP,3,"Adjacent",TAD,5,"Exit",BYE)
+Lbl TDEG
+Lbl TOPP
+Lbl TAD
 Lbl BYE
 ClLCD
 Radian
