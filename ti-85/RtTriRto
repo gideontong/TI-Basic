@@ -31,6 +31,17 @@ Pause "Press [ENTER] to cont"
 Goto BYE
 Lbl CO
 Menu(1,"Degree",CDEG,2,"Adjcent",CADJ,3,"Hypot",CHYP,5,"Exit",BYE)
+Lbl CDEG
+Outpt(3,12,"Degree")
+Input "Adjcent>",adj
+Input "Hypotneuse>",hyp
+cos^-1 (adj/hyp)->x
+Disp "Degree of angle:"
+Disp x
+Pause "Press [enter] to cont"
+Goto BYE
+Lbl CADJ
+Lbl CHYP
 Lbl TA
 Lbl BYE
 ClLCD
