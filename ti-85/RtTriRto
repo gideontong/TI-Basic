@@ -69,6 +69,13 @@ Disp x
 Pause "Press [enter] to cont"
 Goto BYE
 Lbl TOPP
+Input "Degree>",deg
+Input "Adjacent>",adj
+(tan deg)*adj->x
+Disp "Line opp."
+Disp x
+Pause "Press [enter] to cont"
+Goto BYE
 Lbl TAD
 Lbl BYE
 ClLCD
