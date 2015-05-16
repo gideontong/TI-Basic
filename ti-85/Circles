@@ -1,0 +1,9 @@
+ClLCD
+Disp "Circle Solving Is Fun"
+Disp "   By Gideon Tong"
+Menu(1,"Arc",ARR,2,"Arc <",ARN,3,"Radius",RDS,5,"Exit",BYE)
+Lbl ARR
+ClLCD
+Disp "Solving arc length."
+Disp "l=(mAB/360)*2(pi)r"
+Input "Angle measure> ",mAB
