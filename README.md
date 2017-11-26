@@ -1,7 +1,7 @@
-ti-basic
+TI-Tools
 ========
 
-This is a repository containing TI-BASIC code written by Gideon Tong and licensed under MIT. All code available here is written by Gideon Tong. If you would like to know more feel free to shoot me an email! These programs are no longer maintained and are not guarenteed to work anymore, whether under newer updates of operating systems or new calculator releases. There are popular alternatives, especially for standardized test taking.
+This is a repository containing TI-BASIC code written by Gideon Tong. Feel free to shoot me an email, however since I'm not maintaining old code (I wrote these programs for classes, essentially one-time use programs that I'll never use again). In addition, I don't use the TI-85 or the TI-89 Titanium anymore as the TI-84 has become the gold standard for calculators in classrooms, even though the TI-89 Titanium is super powerful with its built-in CAS.
 
 <h1>The MIT License (MIT)</h1>
 

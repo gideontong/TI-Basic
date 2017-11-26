@@ -1,4 +1,4 @@
-#TI-85 Programs
+# TI-85 Programs
 
 TI-85 program files have a file extension of .85p. These files have a file extension of .bas in indicate that they are TI-85 source code files, and cannot be loaded directly onto the calculator. The fastest method would be to type them manually into your calculate.
 
