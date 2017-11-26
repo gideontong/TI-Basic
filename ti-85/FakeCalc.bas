@@ -1,6 +1,6 @@
 ClLCD
 Lbl A
-Input ""->x
+Input ""→x
 If x<0
 Disp x*-2
 If x==0

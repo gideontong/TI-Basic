@@ -10,12 +10,12 @@ Lbl SDEG
 Outpt(3,12,"Degree")
 Input "Opposite>",opp
 Input "Hypotneuse">",hyp
-sin^-1 (opp/hyp)->x
+sin^-1 (opp/hyp)→x
 Lbl SLINE
 Outpt(3,12,"Line opp.")
 Input "Degree>",deg
 Input "Hypotneuse>",hyp
-(sin deg)/hyp->x
+(sin deg)/hyp→x
 Disp "Line opposite is:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -24,7 +24,7 @@ Lbl SHYP
 Outpt(3,12,"Hypotneuse")
 Input "Degree>",deg
 Input "Line Opposite>",opp
-(sin deg)*opp->x
+(sin deg)*opp→x
 Disp "Hypotneuse:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -35,7 +35,7 @@ Lbl CDEG
 Outpt(3,12,"Degree")
 Input "Adjcent>",adj
 Input "Hypotneuse>",hyp
-cos^-1 (adj/hyp)->x
+cos^-1 (adj/hyp)→x
 Disp "Degree of angle:"
 Disp x
 Pause "Press [enter] to cont"
@@ -44,7 +44,7 @@ Lbl CADJ
 Outpt(3,12,"Adjcent")
 Input "Degree>",deg
 Input "Hypotneuse>",hyp
-(cos deg)*hyp->x
+(cos deg)*hyp→x
 Disp "Adjcent:"
 Disp x
 Pause "Press [enter] to cont"
@@ -53,7 +53,7 @@ Lbl CHYP
 Outpt(3,12,"Hypotneuse")
 Input "Degree>",deg
 Input "Adjcent>",adj
-(cos deg)/adj->x
+(cos deg)/adj→x
 Disp "Hypotneuse:"
 Disp x
 Pause "Press [enter] to cont"
@@ -71,7 +71,7 @@ Goto BYE
 Lbl TOPP
 Input "Degree>",deg
 Input "Adjacent>",adj
-(tan deg)*adj->x
+(tan deg)*adj→x
 Disp "Line opp."
 Disp x
 Pause "Press [enter] to cont"
@@ -79,7 +79,7 @@ Goto BYE
 Lbl TAD
 Input "Degree>",deg
 Input "Line opp.>",opp
-opp/(tan deg)->x
+opp/(tan deg)→x
 Disp "Adjacent angle:"
 Disp x
 Pause "Press [enter] to cont"

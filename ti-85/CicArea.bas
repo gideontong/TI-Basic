@@ -6,7 +6,7 @@ Lbl ALL
 ClLCD
 Disp "A=(pi)r^2"
 Input "Radius> ",r
-(pi)*r^2->x
+(pi)*r^2→x
 Disp "Area:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -15,7 +15,7 @@ Lbl RAD
 ClLCD
 Disp "r=sqrt(A/(pi))"
 Input "Area> ",A
-sqrt(A/(pi))->x
+sqrt(A/(pi))→x
 Disp "Radius:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -25,7 +25,7 @@ ClLCD
 Disp "A=(mAB/360)*(pi)r^2"
 Input "< of arc> ",mAB
 Input "Radius> ",r
-(mAB/360)*(pi)r^2->x
+(mAB/360)*(pi)r^2→x
 Disp "Sector area:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -35,7 +35,7 @@ ClLCD
 Disp "r=sqrt((A(360/mAB))/(pi))"
 Input "< Arc> ",mAB
 Input "Area> ",A
-sqrt((A(360/mAB))/(pi))->x
+sqrt((A(360/mAB))/(pi))→x
 Disp "Radius:"
 Disp x
 Pause "Press [ENTER] to cont"

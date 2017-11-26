@@ -8,7 +8,7 @@ Disp "Solving arc length."
 Disp "l=(mAB/360)*2(pi)r"
 Input "Angle measure> ",mAB
 Input "Radius> ",r
-(mAB/360)*2(pi)r->x
+(mAB/360)*2(pi)r→x
 Disp "Arc length:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -19,7 +19,7 @@ Disp "Solving arc angle."
 Disp "arc length/(2(pi)r*360)"
 Input "Arc length> ",arl
 Input "Radius> ",r
-(arl/(2(pi)r))*360->x
+(arl/(2(pi)r))*360→x
 Disp "Arc angle:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -30,7 +30,7 @@ Disp "Solving for radius."
 Disp "(length*360/<)/(2(pi))"
 Input "Angle of arc> ",ang
 Input "Length of arc> ",len
-(len*(360/ang))/(2(pi))->x
+(len*(360/ang))/(2(pi))→x
 Disp "Radius:"
 Disp x
 Pause "Press [ENTER] to cont"

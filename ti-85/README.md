@@ -1,11 +1,18 @@
-For clarification,  is a -> or the arrow in TI calculators, commonly seen as Store, STORE>, STO>, etc. Also, ² is ^2 or squared symbol. Also, √ is the square root symbol.
+#TI-85 Programs
 
-All program names are the same 8-letter long names from my original TI-85 calculator, which is 8-bit. Therefore, some names may seem like spelling errors, but I only can fit 8 letters!
+TI-85 program files have a file extension of .85p. These files have a file extension of .bas in indicate that they are TI-85 source code files, and cannot be loaded directly onto the calculator. The fastest method would be to type them manually into your calculate.
 
-I have yet to put something here, but the point of this folder is to store TI-BASIC programs written for the TI-85.
-
-*Things to do:* upload RtTriRto, and update RtTriRto so it also has tan().
-
-Remember: filenames that don't have a filename extension CANNOT be sideloaded into a TI-85. It is meant for people looking at a screen to be able to find the keys easily. If you want a sideloaded program, that's coming soon, but not so soon. I don't have a TI-85 I/O cable, so I can't.
-
-TI-85 program files have a file extension of .85p. Just trying to be helpful.
+CHATBOX - Simple hotseat chat program
+CICAREA - Calculates the area of a circle
+CIRCLES - Tools with circles
+COMPINTR - Compound interest calculator, less powerful than FINANCE
+EULER - Calculator for Euler's rule
+EXPDECAY - Calculates exponential decay
+EXPGROW - Calculates exponential growth
+FAKECALC - Pretends the calculator is working
+GRAPHLOC - Locates points on a graph
+PYTHGTHR - Does the Pythagorean theorem
+QUADRATC - Quadratic formula calculator
+REGPOLYA - Calculates roots of polynomials
+RTTRIRTO - Calculates trig ratios of triangles
+SPEEDTST - Spams numbers on the calculator screen

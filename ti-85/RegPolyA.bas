@@ -9,7 +9,7 @@ Disp "Using Apothem:"
 Disp "na^2*tan (100/n)"
 Input "# of sides> ",nn
 Input "Apothem> ",aa
-nn*aa^2*tan (180/nn)->x
+nn*aa^2*tan (180/nn)→x
 Disp "Area:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -20,7 +20,7 @@ Disp "Solving with side:"
 Disp "(ns^2)/(4tan (180/n))"
 Input "# of sides> ",nn
 Input "Side length> ",s
-(s^2nn)/4tan (180/nn))->x
+(s^2nn)/4tan (180/nn))→x
 Disp "Area:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -30,7 +30,7 @@ Disp "Radius solving:"
 Disp "cos ((n-2)*180/(n*2))"
 Input "# of sides> ",nn
 Input "Radius> ",r
-cos ((nn-2)*180/(nn*2))->x
+cos ((nn-2)*180/(nn*2))→x
 Disp "Area:"
 Disp x
 Pause "Press [ENTER] to cont"

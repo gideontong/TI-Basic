@@ -8,7 +8,7 @@ ClLCD
 Disp "Solve faces:"
 Input "Vertices> ",V
 Input "Edges> ",E
-E+2-V->x
+E+2-V→x
 Disp "Faces:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -18,7 +18,7 @@ ClLCD
 Disp "Solve vertices"
 Input "Faces> ",F
 Input "Edges> ",E
-E+2-F->x
+E+2-F→x
 Disp "Vertices:"
 Disp x
 Pause "Press [ENTER] to cont"
@@ -28,7 +28,7 @@ ClLCD
 Disp "Solve for edges:"
 Input "Faces> ",F
 Input "Vertices> ",V
-F+V-2->x
+F+V-2→x
 Disp "Edges:"
 Disp x
 Pause "Press [ENTER] to cont"
